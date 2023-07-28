@@ -28,12 +28,12 @@ const DropdownList = ({defaultItemText = '', items = []}) => {
             className={`${active === true ? 'active' : ''} dropdown-list`}
             ref={dropdownRef}
         >
-            <div
+            <button
                 className="dropdown-btn"
                 onClick={()=>{ setActive(!active) }}
             >
                 {defaultItemText}
-            </div>
+            </button>
             <ul>
                 {items.map((item, index) => {
                     const url = item.split(' ').join('-')
