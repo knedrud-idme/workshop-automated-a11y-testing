@@ -6,13 +6,13 @@
  import { render, getByRole, getByLabelText } from '@testing-library/react'
  import '@testing-library/jest-dom'
  import userEvent from '@testing-library/user-event'
- 
+
  import Icon from "../icon"
- 
+
  const user = userEvent.setup()
- 
- xdescribe('Icon', () =>{
-     xit('labels the icon', () => {
+
+ describe('Icon', () =>{
+     it('labels the icon', () => {
         const nameFixture = "dock"
         const { getByLabelText } = render(<Icon name={nameFixture} />)
 
@@ -20,7 +20,7 @@
 
         expect(iconText).toBeInTheDocument()
      })
-     xit('has an image role', () => {
+     it('has an image role', () => {
         const {getByRole} = render(<Icon name="wifi" />)
 
         const icon = getByRole('img')
