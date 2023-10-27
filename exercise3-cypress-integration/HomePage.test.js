@@ -8,6 +8,10 @@ describe('HomePage', () => {
         cy.get('#header').contains('CampSpots')
     })
 
+    it('should have aria-current on the logo link', () => {
+        cy.get('#header-logo a').should('have.attr', 'aria-current', 'page')
+    })
+
     it('should have no accessibility violations', () => {
         cy.checkA11y({
             exclude: ['div#portal-root']
