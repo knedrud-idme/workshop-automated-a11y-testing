@@ -45,7 +45,7 @@ export function App() {
 		<footer id="footer" inert={inertMarkupValue ? 'inert' : null}>
 			<div className="layout">
 				<div id="footer-logo">
-					<img src={imgFooterLogo}/>
+					<img src={imgFooterLogo} alt="CampSpots" />
 				</div>
 			</div>
 		</footer>
