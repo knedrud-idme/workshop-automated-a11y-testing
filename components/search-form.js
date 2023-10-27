@@ -19,7 +19,7 @@ const SearchForm = () => (
             </div>
         </div>
         <div className="form-field form-submit">
-            <IconButton onClick={()=> { console.log('Submit my stuff!') }} />
+            <IconButton name="Search" onClick={()=> { console.log('Submit my stuff!') }} />
         </div>
     </div>
 )

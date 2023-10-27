@@ -20,13 +20,13 @@ const HomePage = () => {
                 <SearchForm />
                 <div className="wide-layout two-part-overlap">
                     <div className="content-block-wrap">
-                        <img src={imgTents} />
+                        <img src={imgTents} alt="Field of tents at sunset" />
                         <div className="content-block">
                             <h3>Rest and relaxation is a part of life</h3>
                             <div>We know you need a break. Get out of town, or stay and play. Taking rest and time away from the daily grind of life is essential for maintaining balance and positive well-being.</div>
 
                             <div>At CampSpots, we can help connect you to your next adventure. Create memories you’ll remember fondly well into the future.</div>
-                                
+
                             <div>By researching places, accomodations, and activities that match your lifestyle, you can have the time of your life.</div>
                         </div>
                     </div>

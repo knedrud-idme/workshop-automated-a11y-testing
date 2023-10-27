@@ -20,7 +20,7 @@ import imgFooterLogo from "images/icons/footer-logo.svg"
 
 export function App() {
 	const [inertMarkupValue, setInertMarkupValue] = useState(false)
-	
+
 	const context = {
 		inert: inertMarkupValue,
 		setInertMarkupValue
@@ -28,7 +28,7 @@ export function App() {
 
 	return <AppContext.Provider value={context}>
 		<Header inert={inertMarkupValue ? 'inert' : null} />
-		<div id="main" inert={inertMarkupValue ? 'inert' : null}>
+		<main id="main" inert={inertMarkupValue ? 'inert' : null}>
 			<Router>
 				<HomePage path="/" />
 				<AboutPage path="/about" />
@@ -41,14 +41,14 @@ export function App() {
 				<HikesPage path="/adventures-hikes" />
 				<TripIdeasPage path="/trip-ideas" />
 			</Router>
-		</div>
-		<div id="footer" inert={inertMarkupValue ? 'inert' : null}>
+		</main>
+		<footer id="footer" inert={inertMarkupValue ? 'inert' : null}>
 			<div className="layout">
 				<div id="footer-logo">
 					<img src={imgFooterLogo}/>
 				</div>
 			</div>
-		</div>
+		</footer>
 	</AppContext.Provider>
 }
 
