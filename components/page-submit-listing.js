@@ -9,8 +9,11 @@ const SubmitListingPage = () => {
     return (
         <BodyClassName className="header-overlap page-submit-listing">
             <>
+                <Helmet>
+                     <title>Submit a Listing</title>
+                </Helmet>
                 <HeaderPortal>
-                    <h1 className="visually-hidden">CampSpots</h1>
+                    <h1 className="visually-hidden">Submit a Listing</h1>
                 </HeaderPortal>
                 <section aria-labelledby="heading-about-1">
                     <header className="page-header">

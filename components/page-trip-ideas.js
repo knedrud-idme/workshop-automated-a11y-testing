@@ -8,8 +8,11 @@ const TripIdeasPage = () => {
     return (
         <BodyClassName className="page-plans">
             <>
+                <Helmet>
+                     <title>Trip Ideas</title>
+                </Helmet>
                 <HeaderPortal>
-                    <h1 className="visually-hidden">CampSpots</h1>
+                    <h1 className="visually-hidden">Trip Ideas</h1>
                 </HeaderPortal>
                 <section>
                     <header className="page-header">
@@ -18,7 +21,7 @@ const TripIdeasPage = () => {
                         </div>
                     </header>
                     <article className="layout">
-                       
+
                     </article>
                 </section>
             </>

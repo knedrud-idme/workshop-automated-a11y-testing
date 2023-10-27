@@ -16,8 +16,11 @@ const ListingsPage = () =>  {
     return (
         <BodyClassName className="page-listings">
             <>
+                <Helmet>
+                     <title>Listings - CampSpots</title>
+                </Helmet>
                 <HeaderPortal>
-                    <h1 className="visually-hidden">Camp Spots</h1>
+                    <h1 className="visually-hidden">Listings</h1>
                 </HeaderPortal>
                 <div className="wide-layout listings-header">
                     <h2>Listings</h2>

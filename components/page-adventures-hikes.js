@@ -29,8 +29,11 @@ const HikesPage = () => {
     return (
         <BodyClassName className="header-overlap page-adventure-ideas">
             <>
+                <Helmet>
+                     <title>Adventures - CampSpots</title>
+                </Helmet>
                 <HeaderPortal>
-                    <h1 className="visually-hidden">CampSpots</h1>
+                    <h1 className="visually-hidden">Adventures</h1>
                 </HeaderPortal>
                 <section aria-labelledby="heading-1">
                     <header className="page-header">

@@ -18,6 +18,9 @@ const Listing = props => {
     return (
         <BodyClassName className="header-overlap page-listing-detail">
             <>
+                <Helmet>
+                     <title>{data.listingName} - CampSpots</title>
+                </Helmet>
                 <div>
                     <div
                         className="page-header"

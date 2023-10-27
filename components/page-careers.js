@@ -25,8 +25,11 @@ const CareersPage = () => {
     return (
         <BodyClassName className="header-overlap page-careers">
             <>
+                <Helmet>
+                     <title>Careers - CampSpots</title>
+                </Helmet>
                 <HeaderPortal>
-                    <h1 className="visually-hidden">CampSpots</h1>
+                    <h1 className="visually-hidden">Careers</h1>
                 </HeaderPortal>
                 <header className="page-header">
                     <div className="page-header-content layout">
@@ -43,7 +46,7 @@ const CareersPage = () => {
                                 Remote</p>
                                 <p><a href="#">Senior HR Partner</a><br />
                                 Remote</p>
-                                
+
                                 <h4>Brand Management</h4>
                                 <p><a href="#">Associate Brand Manager</a><br />
                                 Remote</p>

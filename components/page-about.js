@@ -2,6 +2,8 @@ import React from "react"
 import BodyClassName from "react-body-classname"
 import {Helmet} from "react-helmet"
 
+import HeaderPortal from "components/header-portal"
+
 import "./styles/page-about.scss"
 import imgAbout from "images/about-image.jpg"
 
@@ -9,11 +11,17 @@ const AboutPage = () => {
     return (
         <BodyClassName className="page-about">
             <>
+                <Helmet>
+                     <title>About - CampSpots</title>
+                </Helmet>
+                <HeaderPortal>
+                    <h1 className="visually-hidden">About</h1>
+                </HeaderPortal>
                 <div className="layout two-parts-50-50">
                     <div className="content-block">
                         <h2>About CampSpots</h2>
                         <div>We know you need a break. Get out of town, or stay and play. Taking rest and time away from the daily grind of life is essential for maintaining balance and positive well-being.</div>
-                        <div>At CampSpots, we can help connect you to your next adventure. Create memories you’ll remember fondly well into the future.</div> 
+                        <div>At CampSpots, we can help connect you to your next adventure. Create memories you’ll remember fondly well into the future.</div>
                         <div>By researching places, accomodations, and activities that match your lifestyle, you can have the time of your life.</div>
                     </div>
                     <img src={imgAbout} />

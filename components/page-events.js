@@ -11,8 +11,11 @@ const EventsPage = () => {
     return (
         <BodyClassName className="header-overlap page-events">
             <>
+                <Helmet>
+                     <title>Events - CampSpots</title>
+                </Helmet>
                 <HeaderPortal>
-                    <h1 className="visually-hidden">CampSpots</h1>
+                    <h1 className="visually-hidden">Events</h1>
                 </HeaderPortal>
                 <section>
                     <header className="page-header">

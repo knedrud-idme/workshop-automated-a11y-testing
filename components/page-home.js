@@ -14,6 +14,9 @@ const HomePage = () => {
     return (
         <BodyClassName className="page-home">
             <>
+                <Helmet>
+                     <title>CampSpots - Home</title>
+                </Helmet>
                 <HeaderPortal>
                     <h1 className="visually-hidden">Camp Spots</h1>
                 </HeaderPortal>
