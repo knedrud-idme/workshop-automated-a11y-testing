@@ -13,19 +13,19 @@ Object {
       "role": "link",
     },
     Object {
-      "level": 2,
+      "haspopup": "menu",
       "name": "Plan Your Trip",
-      "role": "heading",
+      "role": "combobox",
     },
     Object {
-      "level": 2,
+      "haspopup": "menu",
       "name": "Ways to Stay",
-      "role": "heading",
+      "role": "combobox",
     },
     Object {
-      "level": 2,
+      "haspopup": "menu",
       "name": "Resources",
-      "role": "heading",
+      "role": "combobox",
     },
     Object {
       "name": "Login",
@@ -126,8 +126,12 @@ Object {
       "name": "Pick a Plan and Start Your Adventure Today!",
       "role": "generic",
     },
+    Object {
+      "name": "CampSpots",
+      "role": "img",
+    },
   ],
-  "name": "CampSpots",
+  "name": "CampSpots Passes",
   "role": "RootWebArea",
 }
 `;
